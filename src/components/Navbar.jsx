@@ -1,0 +1,40 @@
+import Image from "next/image";
+import Link from "next/link";
+
+const Navbar = () => {
+  return (
+    <div className="navbar fixed z-99   px-10 lg:px-20">
+      <div className="flex-1">
+        <Link href="/" className="flex justify-start items-center text-xl">
+            
+            <Image src={"/logo.png"} width={50} height={50}/>
+             <p className="font-bold relative right-2">Eid Card</p>
+        </Link>
+      </div>
+      <div className="flex-none">
+        <ul className="menu flex items-center menu-horizontal px-1">
+          <li>
+            <Link href={"/"}>
+                 <button className="btn border-yellow-400 text-yellow-400  btn-outline btn-sm">Log in</button>
+            </Link>
+          </li>
+          <li>
+            <details>
+              <summary>Parent</summary>
+              <ul className="bg-base-100 rounded-t-none p-2">
+                <li>
+                  <a>Link 1</a>
+                </li>
+                <li>
+                  <a>Link 2</a>
+                </li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
