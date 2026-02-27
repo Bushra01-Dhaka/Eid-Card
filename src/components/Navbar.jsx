@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="navbar fixed z-99   px-10 lg:px-20">
+    <div className="navbar fixed z-99   px-6 lg:px-20">
       <div className="flex-1">
         <Link href="/" className="flex justify-start items-center text-xl">
             
             <Image src={"/logo.png"} width={50} height={50}/>
-             <p className="font-bold relative right-2">Eid Card</p>
+             <p className="font-bold relative right-2">Eid<span className="text-yellow-400">Card</span></p>
         </Link>
       </div>
       <div className="flex-none">
@@ -18,7 +18,7 @@ const Navbar = () => {
                  <button className="btn border-yellow-400 text-yellow-400  btn-outline btn-sm">Log in</button>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <details>
               <summary>Parent</summary>
               <ul className="bg-base-100 rounded-t-none p-2">
@@ -30,7 +30,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </details>
-          </li>
+          </li> */}
+
         </ul>
       </div>
     </div>
