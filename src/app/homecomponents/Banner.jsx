@@ -40,7 +40,7 @@ const Banner = () => {
                 ✨ Start Creating EidCard
               </button>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/exploreCards"}>
               <button className="btn hover:shadow-2xl hover:shadow-yellow-400 border-0 bg-yellow-400 text-green-950 btn-md">
                Explore Customized Card
               </button>
