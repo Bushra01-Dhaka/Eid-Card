@@ -5,7 +5,7 @@ const WineCard = () => {
     <div
       className="min-h-[100vh] flex items-center justify-center px-6 py-20 bg-cover bg-center relative"
       style={{
-        backgroundImage: "url(/pinkCard.jpg)",
+        backgroundImage: "url(/blueCard.jpg)",
       }}
     >
       {/* Soft warm overlay */}
@@ -16,7 +16,7 @@ const WineCard = () => {
 
         {/* Cute floating sticker */}
         <div className="absolute -top-5 -right-5 bg-[#3D1B19] text-white text-xs px-4 py-2 rounded-full shadow-lg rotate-12">
-          bestie vibes 💅
+          best buddy vibes 
         </div>
 
         {/* Main Heading */}

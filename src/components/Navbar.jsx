@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="flex-1">
         <Link href="/" className="flex justify-start items-center text-xl">
             
-            <Image src={"/logo.png"} width={50} height={50}/>
+            <Image src={"/logo.png"} width={50} height={50} alt="moon image" />
              <p className="font-bold relative right-2">Eid<span className="text-yellow-400">Card</span></p>
         </Link>
       </div>

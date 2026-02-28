@@ -1,3 +1,5 @@
+import ChandRaatCard from "../homecomponents/ChandRaatCard";
+import ChandRaatCinematicCard from "../homecomponents/ChandRaatCinematicCard";
 import CorporateEidCard from "../homecomponents/CorporateEidCard";
 import EidiCard from "../homecomponents/EidiCard";
 import WineCard from "../homecomponents/WineCard";
@@ -18,12 +20,20 @@ const ExploreCards = () => {
             <div>
                 <EidiCard/>
             </div>
+              <div>
+                <CorporateEidCard/>
+            </div>
             <div>
                 <WineCard/>
             </div>
+          
             <div>
-                <CorporateEidCard/>
+                <ChandRaatCard/>
             </div>
+               <div>
+                <ChandRaatCinematicCard/>
+            </div>
+
          </div>
 
 

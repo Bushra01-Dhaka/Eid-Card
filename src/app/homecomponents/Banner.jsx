@@ -35,7 +35,7 @@ const Banner = () => {
           </p>
 
           <div className="py-6 flex flex-col lg:flex-row justify-center items-center gap-4">
-            <Link href={"/"}>
+            <Link href={"/customEidCardForm"}>
               <button className="btn hover:shadow-2xl hover:shadow-yellow-400 border-yellow-400 text-yellow-400 btn-outline btn-md">
                 ✨ Start Creating EidCard
               </button>
